@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <!-- sweetalert  -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- css  -->
+    <link rel="stylesheet" href="style/style.css">
+    <title>Assessment</title>
+</head>
+<body>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <!-- image  -->
+                    <div class="col">
+                        <h1>This is a Image</h1>
+                        <img src="image/office.jpg" alt="office">
+                    </div>
+                    <!-- video  -->
+                    <div class="col">
+                        <h1>This is a Video</h1>
+                        <video autoplay loop muted>
+                            <source src="video/office.mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- form  -->
+        <section>
+            <div class="form_section">
+                <form action="" id="form">
+                    <div class="input">
+                        <i class="fas fa-user-circle"></i>
+                        <input type="text" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="input">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="input">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" placeholder="Enter Your Password">
+                    </div>
+                    <div class="input">
+                        <i class="fas fa-book"></i>
+                        <textarea id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    </div>
+                    <div class="input">
+                        <select name="" id="country">
+                            <option value="">Country</option>
+                        </select>
+                    </div>
+                    <div class="submitBtn">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+<script src="js/javascript.js"></script>
+</body>
+</html>
